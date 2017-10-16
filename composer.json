@@ -8,7 +8,9 @@
       "email": "ml@tatsuya.info"
     }
   ],
-  "require": {},
+  "require": {
+    "laravelcollective/remote": "5.4.*"
+  },
   "autoload": {
     "psr-4": {
       "Opnuc\\OpnucOrktrack\\": "src/"
