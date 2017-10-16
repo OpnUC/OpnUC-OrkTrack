@@ -1,0 +1,17 @@
+{
+  "name": "opnuc/opnuc-orktrack",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tatsuya Ueda",
+      "email": "ml@tatsuya.info"
+    }
+  ],
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Opnuc\\OpnucOrktrack\\": "src/"
+    }
+  }
+}
