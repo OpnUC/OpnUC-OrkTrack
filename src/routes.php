@@ -1,5 +1,3 @@
 <?php
 
-Route::get('/orktrack/command', function () {
-    return 'test';
-});
+Route::get('/orktrack/command', 'Opnuc\OpnucOrktrack\OrktrackController@command');

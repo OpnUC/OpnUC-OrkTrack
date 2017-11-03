@@ -15,6 +15,14 @@ class CreateOrktrack extends Migration
     {
         Schema::create('orktracks', function (Blueprint $table) {
             $table->increments('id');
+            $table->string('recid');
+            $table->integer('status');
+            $table->string('filename');
+            $table->dateTime('timestamp');
+            $table->string('localparty');
+            $table->string('remoteparty');
+            $table->integer('duration');
+            $table->string('hostname');
             $table->timestamps();
         });
     }
